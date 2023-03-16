@@ -1,4 +1,7 @@
-# Rust *wgpu* Graphics Programming: Step-By-Step (4) 
+# Rust *wgpu* Graphics Programming: Step-By-Step (4) (https://github.com/jack1232/wgpu-Step-By-Step)
+
+## This is simple example just updated for Vulkan
+
 ## Create Point and Line Primitives
 
 This is the source code for fourth video of the YouTube series on step-by-step Rust *wgpu* graphics programming.

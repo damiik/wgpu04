@@ -42,7 +42,7 @@ pub async fn run(event_loop: EventLoop<()>, window: Window, inputs: Inputs<'_>, 
         format: format,
         width: size.width,
         height: size.height,
-        present_mode: wgpu::PresentMode::Immediate,
+        present_mode: wgpu::PresentMode::Fifo,
     };
     surface.configure(&device, &config);
 
